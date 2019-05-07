@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestFiles\Empty.txt" />
+    <None Remove="TestFiles\NonValidPostcodes.txt" />
+    <None Remove="TestFiles\TestPostcodes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="TestFiles\Empty.txt" />
+    <EmbeddedResource Include="TestFiles\NonValidPostcodes.txt" />
+    <EmbeddedResource Include="TestFiles\TestPostcodes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="4.1.0" />
+    <PackageReference Include="nunit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComputerShare\ComputerShare.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ServicesTests\Integration Tests\" />
+  </ItemGroup>
+
+</Project>

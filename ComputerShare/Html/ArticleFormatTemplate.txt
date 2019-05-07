@@ -1,0 +1,10 @@
+﻿<article class="info">
+    <img src="##ImageUrl##">
+    <div class="text">
+        <h3>Original Lookup Postcode: ##Postcode##</h3>
+        <h4>The Most Expensive Postcode found in this Area was ##ExpensivePostcode##</h4>
+        <img src="##ExpensiveImageUrl##">
+        <p>The Average selling price in this postcode was <b>£##AveHousePrice##</b> for the last year.</p>
+        <p>A total of <b>##NumberOfSales##</b> house(s) have been sold in this postcode for the last year. </p>
+    </div>
+</article>

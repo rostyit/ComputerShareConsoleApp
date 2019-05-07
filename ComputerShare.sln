@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerShare", "ComputerShare\ComputerShare.csproj", "{A3CE773B-73B9-409A-97F0-154EBCA17665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerShare.Tests", "ComputerShare.Tests\ComputerShare.Tests.csproj", "{CCAFF552-B2E5-41F0-A11A-2F618499F61E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3CE773B-73B9-409A-97F0-154EBCA17665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CE773B-73B9-409A-97F0-154EBCA17665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CE773B-73B9-409A-97F0-154EBCA17665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CE773B-73B9-409A-97F0-154EBCA17665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCAFF552-B2E5-41F0-A11A-2F618499F61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAFF552-B2E5-41F0-A11A-2F618499F61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAFF552-B2E5-41F0-A11A-2F618499F61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAFF552-B2E5-41F0-A11A-2F618499F61E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D18F08D7-58A6-4F71-AB36-06BC7A286606}
+	EndGlobalSection
+EndGlobal
