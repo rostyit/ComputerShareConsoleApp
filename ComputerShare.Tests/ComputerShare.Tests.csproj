@@ -8,12 +8,14 @@
 
   <ItemGroup>
     <None Remove="TestFiles\Empty.txt" />
+    <None Remove="TestFiles\MoreThan5Postcodes.txt" />
     <None Remove="TestFiles\NonValidPostcodes.txt" />
     <None Remove="TestFiles\TestPostcodes.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="TestFiles\Empty.txt" />
+    <EmbeddedResource Include="TestFiles\MoreThan5Postcodes.txt" />
     <EmbeddedResource Include="TestFiles\NonValidPostcodes.txt" />
     <EmbeddedResource Include="TestFiles\TestPostcodes.txt" />
   </ItemGroup>

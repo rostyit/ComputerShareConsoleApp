@@ -1,8 +1,7 @@
 {
   "profiles": {
     "ComputerShare": {
-      "commandName": "Project",
-      "commandLineArgs": "-f C:\\Users\\djros\\OneDrive\\Documents\\testPostcodes.txt"
+      "commandName": "Project"
     }
   }
 }

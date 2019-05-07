@@ -56,6 +56,9 @@ namespace ComputerShare.Classes
             if (!postcodes.Any())
                 return $"The Postcode File presented: [{postcodeFilePath}] Does not contain any data!";
 
+            if (postcodes.Count > 5)
+                return $"The Postcode File presented: [{postcodeFilePath}] Has more than 5 postcodes!";
+
             var strBuilder = new StringBuilder();
             postcodes.ForEach(pc =>
             {

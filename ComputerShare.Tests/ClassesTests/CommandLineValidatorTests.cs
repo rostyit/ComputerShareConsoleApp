@@ -60,6 +60,18 @@ namespace ComputerShare.Tests.ClassesTests
         }
 
         [Test]
+        public void AValidFilePath_WithTooManyValidPostcodes_Causes_AValidationError()
+        {
+            var validFilePath = GetNamedTestFilePath("MoreThan5Postcodes.txt");
+
+            var options = GetCommandLineOptions("", validFilePath);
+
+            var commandLineValidator = new CommandLineValidator();
+            var errorMessage = commandLineValidator.Validate(options);
+            Assert.That(!string.IsNullOrWhiteSpace(errorMessage), errorMessage);
+        }
+
+        [Test]
         public void AValidFilePath_WithNoPostcodes_Causes_AValidationError()
         {
             var validFilePath = GetNamedTestFilePath("Empty.txt");
